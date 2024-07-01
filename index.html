@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/output.css">
+    <title>Film</title>
+</head>
+<body class="bg-zinc-300">
+
+    <header class="bg-gray-200 p-6 shadow-md shadow-rose-600">
+        <nav class="container  ">
+            <div id="navbar" class="flex flex-col items-center justify-between md:flex-row">
+                <div id="logo">
+                    <h1 class="text-rose-600 text-2xl font-bold">Movie Guide App</h1>
+                </div>
+                <div id="search-container">
+                    <form action="">
+                        <input type="text" placeholder="search a movie" id="search-input" class="p-2 rounded-lg outline-none border-2 focus:border-rose-600">
+                        <button type="submit" id="button" class="py-2 px-3 bg-rose-600 rounded-lg text-white hover:bg-black hover:text-rose-600 duration-200 ease-in-out">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-8 min-h-[78svh]">
+        <section class="flex items-center justify-center">
+            <div id="movie-container" class="h-full p-4 flex flex-col md:flex-row items-center gap-10 rounded-lg bg-white shadow-lg shadow-rose-500">
+                <h2 class="text-3xl text-bold text-rose-600 capitalize">search movie details here</h2>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center bg-rose-600 text-white text-md pb-2">
+        <p>&copy; 2024 movie guide app</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

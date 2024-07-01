@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.movie-poster img{
+    @apply h-[450px] w-[450px] rounded-lg ring-2 ring-rose-600
+}
+
+.movie-element h2{
+    @apply text-center text-4xl capitalize font-extrabold text-rose-600
+}
+
+.movie-genre{
+    @apply flex items-center justify-between w-3/4 md:w-2/4 lg:w-2/5;
+}
+
+.movie-element .movie-genre p{
+    @apply mt-2 p-2 rounded-lg bg-rose-600 text-white
+}
+
+ {
+    @apply text-center text-4xl capitalize font-extrabold text-rose-600
+}
