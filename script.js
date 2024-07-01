@@ -1,8 +1,7 @@
 const searchForm = document.querySelector('form');
 const movieContainer = document.getElementById("movie-container");
 const inputBox = document.getElementById("search-input");
-const key = 'http://www.omdbapi.com/?i=tt3896198&apikey=6bc0317c';
-const api = 'http://www.omdbapi.com/?apikey=[yourkey]&';
+
 
 
 //add eventlistener
